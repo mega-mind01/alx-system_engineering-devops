@@ -1,2 +1,2 @@
 #!/bim/bash
-find . -type d ! -name "." ".." | wc -l
+find . -type d ! -name "." | wc -l
