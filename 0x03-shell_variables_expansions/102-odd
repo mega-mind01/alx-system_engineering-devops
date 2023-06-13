@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n '1~2p'
+grep -E '^[[:blank:]]*[0-9]+[02468][[:blank:]]' | cut -f2-
